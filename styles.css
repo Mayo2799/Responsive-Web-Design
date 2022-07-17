@@ -3,6 +3,31 @@
     text-align: center;
   }
 }
+.carousel-item {
+  background-color: #000000;
+}
 img {
-  height: 400px;
+  height: 500px;
+  opacity: 0.4;
+}
+html {
+  background-color: #000000;
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
